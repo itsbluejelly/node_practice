@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 const {eventLogger} = require('../middleware/eventLogger')
+const port = process.env.port || 8080
 
 const connectDB = async () => {
     try{
@@ -10,7 +11,7 @@ const connectDB = async () => {
                 useNewUrlParser: true
             }
         )
-        eventLogger("Connection to MongoDB successful", `Server Listening To Port ${process.env.port}`, 'eventLogs.txt')
+        eventLogger("Connection to MongoDB successful", `Server Listening To Port ${port}`, 'eventLogs.txt')
     }catch(error){
         eventLogger(error.name, error.message, 'errorLogs.txt')
     }

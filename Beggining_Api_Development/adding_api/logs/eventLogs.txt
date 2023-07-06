@@ -1,8 +1,0 @@
-6th-Jul-2023	02:24:30 p.m.	daa8cb62-4853-49a5-8df7-cc0cb5b6b43b	Connection to MongoDB successful	Server Listening To Port 5500
-6th-Jul-2023	02:24:55 p.m.	4ff51ec2-846b-4749-8535-a4ca20062a70	Connection to MongoDB successful	Server Listening To Port 5500
-6th-Jul-2023	02:25:39 p.m.	3d8c0e63-bbe1-4ed2-9759-d56730d61e86	Connection to MongoDB successful	Server Listening To Port 5500
-6th-Jul-2023	02:26:26 p.m.	fafe8aa7-a43c-4291-8dae-5a8a903cc5db	/	GET
-6th-Jul-2023	02:27:17 p.m.	78d35652-660c-417a-9db0-73a51ee461d9	/	GET
-6th-Jul-2023	02:27:18 p.m.	1718270c-8f44-47a5-93be-c8b8f7bdb5e0	/	GET
-6th-Jul-2023	02:27:37 p.m.	497c84ac-d06a-4130-a7be-d9b157d667a0	Connection to MongoDB successful	Server Listening To Port 5500
-6th-Jul-2023	02:27:42 p.m.	121c7160-bd8d-4ab0-98c8-541353415739	/	GET
