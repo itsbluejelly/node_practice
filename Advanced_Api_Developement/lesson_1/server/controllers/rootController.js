@@ -1,15 +1,21 @@
 const {eventLogger} = require('../middleware/eventLogger')
 const ArticleModel = require('../model/Article')
 
-function getController(req, res, next){
+async function getController(req, res, next){
     eventLogger(req.path, req.method, 'eventLogs.txt')
-    
-    res.json({
-        titles: {
-            firstTitle: "First Post",
-            secondTitle: "Second Post"
-        }
-    })
+
+    try{
+        const savedArticles = await ArticleModel.find().select("title body id")
+        eventLogger("list of saved documents from article collection found", savedArticles, 'dataBaseLogs.txt')
+        res.json({savedPosts: savedArticles})
+    }catch(error){
+        eventLogger(error.name, error.message, 'errorLogs.txt')
+        res.status(404).json({
+            error:{
+                [error.name]:error.message
+            }
+        })
+    }
     
     next()
 }
@@ -21,7 +27,7 @@ async function postController(req, res, next){
     try{
         const savedArticle = await article.save()
         eventLogger("save to articles collection successful", savedArticle, 'dataBaseLogs.txt')
-        res.json({post: savedArticle})
+        res.json({post: savedArticle}).status(201)
     }catch(error){
         eventLogger(error.name, error.message, 'errorLogs.txt')
         
