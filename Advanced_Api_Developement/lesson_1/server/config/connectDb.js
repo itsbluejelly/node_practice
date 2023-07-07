@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const {eventLogger} = require('../middleware/eventLogger')
-const port = process.env.port || 8080
+const port = process.env.PORT || 5500
 
 const connectDB = async () => {
     try{
