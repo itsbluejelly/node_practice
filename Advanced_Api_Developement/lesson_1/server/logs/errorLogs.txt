@@ -1,0 +1,2 @@
+7th-Jul-2023	03:44:21 a.m.	30243196-ac6a-4b69-880a-a69f8f8cb84a	ValidationError	Article validation failed: body: Body is Required, title: Title is Required
+7th-Jul-2023	03:46:56 a.m.	1befbbaf-a65f-43c8-96ce-b6554887751c	ValidationError	Article validation failed: title: minimum length of four characters, body: minimum length of four characters

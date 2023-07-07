@@ -10,6 +10,7 @@ const app = express()
 dotenv.config()
 connectDB()
 
+app.use(express.json())
 app.use("/", rootRouter)
 
 mongoose.connection.once("open", () => {

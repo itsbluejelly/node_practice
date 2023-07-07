@@ -3,7 +3,9 @@ const rootController = require('../controllers/rootController')
 
 const rootRouter = express.Router()
 
-rootRouter.get('/', rootController.postController)
+rootRouter.route('/')
+    .get(rootController.getController)
+    .post(rootController.postController)
 
 module.exports = {
     rootRouter

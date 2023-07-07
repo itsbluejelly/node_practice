@@ -1,0 +1,10 @@
+7th-Jul-2023	03:38:35 a.m.	8092e19c-dc32-4a89-a2e2-9b170562e9ee	Connection to MongoDB successful	Server Listening To Port 8080
+7th-Jul-2023	03:41:14 a.m.	a4aeee51-f42d-43c3-8682-8482477bb258	Connection to MongoDB successful	Server Listening To Port 8080
+7th-Jul-2023	03:44:02 a.m.	7bec529b-9be4-420f-842f-0da4b81caeb9	Connection to MongoDB successful	Server Listening To Port 8080
+7th-Jul-2023	03:44:13 a.m.	e189c35b-3f10-4789-9e2f-4bd8685db78f	/	GET
+7th-Jul-2023	03:44:21 a.m.	d9a39962-9c54-4c70-9ad3-e704081e05b4	/	POST
+7th-Jul-2023	03:46:56 a.m.	1c0e1d00-c2e6-4534-a21a-9705ddb6258b	/	POST
+7th-Jul-2023	03:47:17 a.m.	bd2a6509-137b-40be-b790-fd8793f4532b	/	POST
+7th-Jul-2023	03:47:49 a.m.	f0ef1ec2-f851-4ea6-b97a-d2c591320cb5	/	POST
+7th-Jul-2023	03:49:56 a.m.	d20f15cf-5b18-4fc8-b9f3-15e633392e8a	/	GET
+7th-Jul-2023	03:50:07 a.m.	6a0bd02b-6ee5-456b-a612-393cad136506	/	GET

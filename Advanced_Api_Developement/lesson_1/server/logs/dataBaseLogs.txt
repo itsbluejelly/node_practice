@@ -1,0 +1,12 @@
+7th-Jul-2023	03:47:17 a.m.	033b4d8a-fc5f-4c10-84a6-8ed6e574ca50	save to articles collection successful	{
+  title: 'coco',
+  body: 'oppa',
+  _id: new ObjectId("64a76095194d4de1d5af982b"),
+  __v: 0
+}
+7th-Jul-2023	03:47:49 a.m.	78f9b1ab-b31c-4d71-9181-4acd2fd65317	save to articles collection successful	{
+  title: 'coco',
+  body: 'oppa',
+  _id: new ObjectId("64a760b5194d4de1d5af982d"),
+  __v: 0
+}
